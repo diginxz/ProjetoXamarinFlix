@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoXamarinFlix.MainPage"
+             BackgroundColor="#2f2f30">
+
+<StackLayout>
+        <Grid RowSpacing="1" ColumnSpacing="10" Padding="10">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Image x:Name="XamarinFlixLogo.png"
+                   Grid.Row="0" Grid.Column="0"
+                   Grid.ColumnSpan="2"/>
+            
+
+
+
+
+
+
+        </Grid>
+</StackLayout>
+
+
